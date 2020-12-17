@@ -1,0 +1,41 @@
+//定义mixin方法(所有需要切换的颜色封装为mixin方法)
+
+@import "./varibale";
+
+
+
+
+
+
+
+// //遍历主题
+// @mixin themeify {
+//   @each $theme-name,
+//   $theme-map in $themes {
+//     //!global 把局部变量强升为全局变量
+//     $theme-map: $theme-map !global;
+//     //这步是判断html的data-theme的属性值  #{}是sass的插值表达式
+//     //& sass嵌套里的父容器标识   @content是混合器插槽，像vue的slot
+//     [data-theme="#{$theme-name}"] & {
+//       @content;
+//     }
+//   }
+// }
+
+// //声明一个根据Key获取颜色的function
+// @function themed($key) {
+//   @return map-get($theme-map, $key);
+// }
+
+// //主色 导航条等
+// @mixin bg_color($color) {
+//   @include themeify {
+//     background-color: themed($color)
+//   }
+// }
+
+// @mixin text_color($color){
+// 	@include  themeify{
+// 		color:themed($color)
+// 	}
+// }

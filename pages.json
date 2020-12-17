@@ -1,0 +1,133 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		 {
+			"path": "pages/user/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/tabBar/workbench/workbench",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/tabBar/mine/mine",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/tabBar/apply/apply",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+		    "path" : "pages/tabBar/index/index",
+		    "style": {
+		    	"navigationStyle": "custom"
+		    }
+		},
+		{
+			"path": "pages/service/order/order",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/user/site/site",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}
+	    ,{
+            "path" : "pages/user/server/server",
+            "style": {
+            	"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/order-detail/order-detail",
+            "style": {
+            	"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/service/order-service/order-service",
+            "style": {
+            	"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/service/repair-submit/repair-submit",
+           "style": {
+           	"navigationStyle": "custom"
+           }
+        }
+        ,{
+            "path" : "pages/service/add-spare-parts/add-spare-parts",
+            "style": {
+            	"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/upkeep/upkeep-plan/upkeep-plan",
+            "style": {
+            	"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/upkeep/plan-detail/plan-detail",
+           "style": {
+           	"navigationStyle": "custom"
+           }
+        }
+        ,{
+            "path" : "pages/service/service-team/service-team",
+           "style": {
+           	"navigationStyle": "custom"
+           }
+        }
+        ,{
+            "path" : "pages/energyEfficiency/machineRoom/machineRoom",
+            "style": {
+            	"navigationStyle": "custom"
+            }
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"height": "50px",
+		"list": [
+			{
+				"pagePath": "pages/tabBar/index/index",
+				"iconPath": "static/tabBar/extui.png",
+				"selectedIconPath": "static/tabBar/extuiHL.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabBar/workbench/workbench",
+				"iconPath": "static/tabBar/extui.png",
+				"selectedIconPath": "static/tabBar/extuiHL.png",
+				"text": "工作台"
+			},
+			{
+				"pagePath": "pages/tabBar/apply/apply",
+				"iconPath": "static/tabBar/extui.png",
+				"selectedIconPath": "static/tabBar/extuiHL.png",
+				"text": "应用"
+			},
+			{
+				"pagePath": "pages/tabBar/mine/mine",
+				"iconPath": "static/tabBar/extui.png",
+				"selectedIconPath": "static/tabBar/extuiHL.png",
+				"text": "我的"
+			}
+		]
+	}
+}

@@ -1,0 +1,116 @@
+*{
+		margin:0;
+		padding:0;
+	}
+	li{
+		list-style-type:none;
+	}
+	i{
+		font-style:normal;
+	}
+//重置下拉加载的背景色
+.uni-scroll-view-refresher{
+	background-color: #F5F6F7!important;
+}
+
+//搜索框
+	.search-box{
+		
+		display: flex;
+		align-items: center;
+		.search{
+			padding:20rpx;
+			background: #fafbff;
+			border: 1rpx solid #cfd2dd;
+			border-radius: 16rpx;
+			flex: 1;
+			display: flex;
+			align-items: center;
+			.icon{
+				width:31rpx;
+				height:32rpx;
+				border:1rpx solid #666666;
+				margin-right: 7rpx;
+			}
+			input{
+				flex:1;
+				font-size:30rpx;
+				color:#898989;
+			}
+		}
+		.scan{
+			width:40rpx;
+			height:40rpx;
+			margin-left:31rpx;
+			border:1rpx solid #2764FB;
+		}
+		
+	}
+	
+	//页脚操作按钮
+	.btn-box{
+		position: fixed;
+		bottom:0;
+		box-sizing: border-box;
+		width:100%;
+		height:110rpx;
+		padding:15rpx 55rpx;
+		background-color: $bg-basis;
+		z-index: 999;
+		.btn{
+			background-color: #dcdcdc;
+			height:100%;
+			border-radius: 16rpx;
+			font-size:36rpx;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color:#FFFFFF;
+			&.isSubmit{
+				background-color: #2764FB;
+				box-shadow: 0rpx 3rpx 8rpx 5rpx rgba(19,81,234,0.2);
+			}
+		}
+	}
+	
+// 卡片样式
+.uni-card-box{
+	height: 100%;
+	.uni-card-ul{
+		border-radius: 24rpx;
+		background-color: $bg-main;
+		box-shadow: 0rpx 3rpx 11rpx 7rpx rgba(77,77,77,0.2); 
+		padding:24rpx 33rpx 0;
+		margin-bottom:32rpx;
+		&:first-child{
+			border-radius: 0 0 24rpx 24rpx;
+		}
+		li{
+			display: flex;
+			align-items: center;
+			padding-bottom: 29rpx;
+			font-weight: 500;
+			font-size:26rpx;
+			// 标题盒子
+			&.title-box{
+				justify-content: space-between;
+				font-family: $font-family-title;
+				padding-bottom: 32rpx;
+				.title{
+					font-size: 32rpx;
+					font-weight: 700;
+				}
+				.sub-title{
+					font-size:26rpx;
+				}
+			}
+			.side-title{
+				width:125rpx;
+				color:#666666;
+			}
+			.content{
+				color:#333333;
+			}
+		}
+	}
+}

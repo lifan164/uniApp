@@ -1,0 +1,26 @@
+@import "./common/scss/mixin.scss";
+
+//背景色
+
+
+
+/*颜色*/
+$bg-basis:#F5F6F7;//内容背景色
+$bg-main:#fff;//主体内容背景色
+$bg-active:#2764FB;//选中颜色
+
+
+
+
+/*字体*/
+$font-family-num:Helvetica-Condensed-Black-Se Regular;//数字
+$font-family-title:PingFang SC Bold;//标题
+$font-family-text:PingFang SC Medium;//文本
+
+/*字体颜色*/
+$font-color-title:#323336;//标题颜色
+
+
+
+// 公共样式
+@import "./common/scss/common.scss";
