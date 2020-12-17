@@ -312,7 +312,8 @@
 		.header {
 			display: flex;
 			align-items: center;
-			justify-content: center;
+			justify-content: space-between;
+			flex: auto;
 			height: 88rpx;
 			color: #42464A;
 			font-size: 32rpx;
@@ -368,7 +369,7 @@
 					height: 80rpx;
 					line-height: 80rpx;
 					width: calc(100% / 7);
-
+					color: #279DE0;
 					.day {
 						font-style: normal;
 						display: inline-block;
