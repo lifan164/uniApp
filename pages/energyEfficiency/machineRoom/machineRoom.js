@@ -27,6 +27,9 @@ export default {
 			},{
 				time:'2020-12-20',
 				showClass: 'blueClass'
+			},{
+				time:'2020-12-25',
+				showClass: 'redClass'
 			}],
 			curDate:'',
 		}
