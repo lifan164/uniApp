@@ -1,0 +1,49 @@
+.redClass {
+	color: #FF0005!important;
+}
+
+.yellowClass {
+	color: #F5D812!important;
+}
+
+.blueClass {
+	color: #279DE0!important;
+}
+
+.item_box {
+	background: #FFF;
+	border-radius: 15upx;
+	padding: 20upx;
+	box-sizing: border-box;
+	margin-bottom: 20upx;
+}
+
+.mark_box {
+	display: flex;
+	justify-content: flex-start;
+	height: 60upx;
+	line-height: 60upx;
+}
+
+.mark_item {
+	align-self: center;
+	display: flex;
+	align-items: center;
+	margin-right: 20upx;
+}
+
+.radius_box {
+	width: 25upx;
+	height: 25upx;
+	border-radius: 50%;
+	margin-right: 10upx;
+}
+
+.title {
+	font-size: 32upx;
+	font-weight: 500;
+}
+
+.Calendar_box {
+	padding: 20upx;
+}
